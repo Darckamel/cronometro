@@ -1,0 +1,142 @@
+
+".container" : { 
+    backgroundColor:'#ccc',
+    backgroundImage:'Harly.png'
+   }
+
+"#minutos":{
+	top:50,
+	heit:50,
+	width:80,
+	left:230,
+	Color:"#fff",
+	font:{
+		fontSize:40,
+		fontWeight:'bold',
+	},
+	textAlign:'center',
+	backgroundImage:'logobat.png',
+	keyboardType:Titanium.UI.KEYBOARD_DECIMAL_PAD
+}
+
+"#min":{
+	top:50,
+	heit:50,
+	left:20,
+	text:"Minutos",
+	font:{
+		fontSize:40,
+		fontWeight:'bold',
+	},
+	textAlign:'center',
+}
+
+"#segundos":{
+	top:130,
+	heit:50,
+	width:80,
+	left:230,
+	Color:"#fff",
+	font:{
+		fontSize:40,
+		fontWeight:'bold',
+	},
+	textAlign:'center',
+	backgroundImage:'logobat.png',
+	keyboardType:Titanium.UI.KEYBOARD_DECIMAL_PAD
+}
+
+"#seg":{
+	top:130,
+	heit:50,
+	left:20,
+	text:"Segundos",
+	font:{
+		fontSize:40,
+		fontWeight:'bold',
+	},
+	textAlign:'center',
+}
+
+"#display_lbl":{
+	text:"   00 m : 00 s ",
+	height:150,
+	width:320,
+	top:190,
+	left:0,
+	color:'#fff',
+	
+	font:{
+		fontSize:50,
+		fontWeight:'bold',
+	},
+	//textAlign:'center',
+	backgroundImage:'logoBatman1.png'
+}
+
+"#set_btn":{
+	title:'Set',
+	width:200,
+	height:30,
+	top:350,
+	left:60,	
+	textAlign:'center',
+	backgroundImage:'logoBatman.png'
+}
+
+"#start_btn":{
+	title:'Start',
+	width:200,
+	height:30,
+	top:400,
+	left:60,	
+	textAlign:'center',
+	backgroundImage:'logoBatman.png'
+}
+
+"#pause_btn":{
+	title:'Pause',
+	width:200,
+	height:30,
+	top:450,
+	left:60,	
+	textAlign:'center',
+	backgroundImage:'logoBatman.png'
+}
+
+"#stop_btn":{
+	title:'Stop',
+	width:200,
+	height:30,
+	top:500,
+	left:60,	
+	textAlign:'center',
+	backgroundImage:'logoBatman.png'
+}
+
+"#VentanaPiker":{
+	backgroundColor:"#000",
+	opacity:0.9,
+}
+
+"#toolbar":{
+	bottom:215,
+}
+
+"#aceptar":{
+	title:"Aceptar",
+	style:Titanium.UI.iPhone.SystemButtonStyle.DONE,
+}
+
+"#cancel":{
+	title:"Cancelar",
+	style:Titanium.UI.iPhone.SystemButtonStyle.BORDERED,
+}
+
+"#espacio":{
+	systemButton:Titanium.UI.iPhone.SystemButton.FLEXIBLE_SPACE,
+}
+"#picker":{
+	bottom:0,
+	type:Titanium.UI.PICKER_TYPE_PLAIN,
+}

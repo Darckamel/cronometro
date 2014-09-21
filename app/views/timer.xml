@@ -1,0 +1,23 @@
+<Alloy>
+	<Window class="container">
+		<Label id="min"></Label>
+		<TextField id="minutos"></TextField>
+		<Label id="seg"></Label>
+		<TextField id="segundos"></TextField>
+		<Label id="display_lbl"></Label>
+		<Button id="set_btn"></Button>
+		<Button id="start_btn"></Button>
+		<Button id="pause_btn"></Button>
+		<Button id="stop_btn"></Button>  
+	</Window>
+	<!-- <Window id="VentanaPiker">
+		<Toolbar id="toolbar">
+			<Items>
+				<Button id="cancel"></Button>
+				<Button id="espacio"></Button>
+				<Button id="aceptar"></Button>
+			</Items>
+		</Toolbar>
+		<Picker id="picker"></Picker>
+	</Window> -->
+</Alloy>
