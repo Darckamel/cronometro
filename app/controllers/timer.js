@@ -49,9 +49,9 @@ $.start_btn.addEventListener('click', function(e){
 	// my_timer.set(1,30);
 // });
 
-$.stop_btn.addEventListener('click',function(){
-	my_timer.stop();
-});
+// $.stop_btn.addEventListener('click',function(){
+	// my_timer.stop();
+// });
 
 $.timer.addEventListener("swipe",function(e){
 	if(e.direction=="down"){
